@@ -1,0 +1,44 @@
+/* Normalizar estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}.content{
+    position: relative;
+    top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+ 
+}#text{
+    font-size: 2.5rem;
+    color: red;
+    font-weight: bold;
+}#btn{
+   width: 6rem;
+   height: 3rem;
+   cursor: pointer;
+   background-color: blueviolet;
+   color: white;
+   font-size: 1.2rem;
+   border-radius: 0.6rem;
+   transition: .3s;
+}#btn:hover{
+    transform: scale(1.1);
+}
+#btn-{
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.6rem;
+    transition: .3s;
+    background-color: rgb(28, 40, 37);
+}#btn-:hover{
+    transform: scale(1.1);
+}
